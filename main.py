@@ -4,6 +4,10 @@ def car_selection():
   max_speed = [300, 200, 100, 115]
   price_per_hour = [50, 30, 10, 5]
 
+  #Create object Cars with attributes Name, Fuel, speed and price.
+  #Create instance for each car
+  #Can use method to print each instance
+
   print('Select a car: ')
   for i in range(len(car)):
     print("Car Number:", i+1, "Car:", car[i], "fuel efficiency:", fuel_efficiency[i], "max_speed:", max_speed[i], "price per hour:", price_per_hour[i])
@@ -15,6 +19,10 @@ def car_selection():
 def destination_selection():
   destination = ["Busan", "Gwangju", "Daegu"]
   distance = [400, 300, 285]
+
+  #Create object Destination with attributes Name, and distance.
+  #Create instance for each destination
+  #Can use method to print each instance
 
   print("Select a destination: ")
   for i in range(len(destination)):
