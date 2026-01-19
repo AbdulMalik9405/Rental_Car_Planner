@@ -7,6 +7,8 @@ def car_selection():
   #Create object Cars with attributes Name, Fuel, speed and price.
   #Create instance for each car
   #Can use method to print each instance
+  #Getter method
+  #Setter method if changing values
 
   print('Select a car: ')
   for i in range(len(car)):
